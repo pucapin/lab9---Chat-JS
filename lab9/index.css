@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 60%;
+    height: 60%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    
+}
+
+.user-space {
+    display: flex;
+    flex-direction: row;
+    height: 8%;
+    width: 60%;
+    justify-content: center;
+}
+
+.usuarios {
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+    margin: 10px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#icon {
+    height: 50px;
+    width: auto;
+    margin: 20px;
+}
+
+#input-azul {
+    height: 50%;
+    width: 50%;
+}
+
+#input-rojo {
+    height: 50%;
+    width: 50%; 
+}
+
+#enviar-azul {
+    width: 25%;
+    margin: 20px;
+    height: 50%;
+    border-radius: 20px;
+    border: none;
+    background-color: lightskyblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#enviar-rojo {
+    width: 25%;
+    margin: 20px;
+    height: 50%;
+    border-radius: 20px;
+    border: none;
+    background-color: lightcoral;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#form-azul {
+    height: 100%;
+    width: 100%;
+}
+
+#form-rojo {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    max-height: 600px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+.red-textbox {
+
+    margin-right: 30px;
+    min-width: 80px;
+    height: 30px;
+    background-color: lightcoral;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.blue-textbox {
+    margin-right: 30px;
+    min-width: 80px;
+    height: 30px;
+    background-color: lightskyblue;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
